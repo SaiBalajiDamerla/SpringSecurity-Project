@@ -18,7 +18,7 @@ public class UserRegister {
 
     @PostMapping("register")
     public String Register(@RequestBody User user) {
-        //userRegisteration.registerUser(user);
+        userRegisteration.registerUser(user);
         return  "Success";
 
     }
