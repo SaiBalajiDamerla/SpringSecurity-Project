@@ -14,6 +14,7 @@ public class UserRegister {
     @Autowired
     private  UserRegisteration userRegisteration;
 
+    int a =10;
 
 
     @PostMapping("register")
