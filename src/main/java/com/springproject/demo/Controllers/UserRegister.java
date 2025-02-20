@@ -3,7 +3,7 @@ package com.springproject.demo.Controllers;
 import com.springproject.demo.Model.User;
 import com.springproject.demo.Service.UserRegisteration;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.web.bind.annotation.GetMapping;
+
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RestController;
@@ -14,8 +14,7 @@ public class UserRegister {
     @Autowired
     private  UserRegisteration userRegisteration;
 
-    int a =10;
-
+    int a = 11;
 
     @PostMapping("register")
     public User Register(@RequestBody User user) {
